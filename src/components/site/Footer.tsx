@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="relative mt-32 overflow-hidden border-t border-border bg-[oklch(0.10_0.02_260)]">
       <div className="absolute inset-0 grid-bg opacity-40" />
       <div className="relative mx-auto max-w-7xl px-6 py-16">
-        <div className="grid gap-12 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
+        <div className="grid gap-12 md:grid-cols-[1.4fr_1fr_1fr_1fr_1fr]">
           <div>
             <div className="flex items-center gap-2.5">
               <div className="relative h-9 w-9">
@@ -46,20 +46,36 @@ export function Footer() {
           </div>
 
           <div>
-            <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-primary">Headquarters</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-primary">Contact & Address</div>
             <address className="mt-5 not-italic text-sm leading-relaxed text-muted-foreground">
-              Professional Plaza<br />
-              Business District<br />
-              Trademark Center
+              KARAVE<br />
+              NERUL<br />
+              NAVI MUMBAI 400706
             </address>
-            <a href="mailto:contact@tradexpert.services" className="mt-4 inline-block text-sm text-foreground underline-offset-4 hover:underline">
-              contact@tradexpert.services
-            </a>
+            <div className="mt-4 space-y-2">
+              <div className="text-sm text-foreground">+91 70215 51659</div>
+              <a href="mailto:helpdesk@tradexpertservice.com" className="inline-block text-sm text-foreground underline-offset-4 hover:underline">
+                helpdesk@tradexpertservice.com
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-primary">Legal</div>
+            <ul className="mt-5 space-y-2 text-sm text-muted-foreground">
+              <li><Link to="/privacy" className="hover:text-foreground">Privacy Policy</Link></li>
+              <li><Link to="/terms" className="hover:text-foreground">Terms of Service</Link></li>
+              <li><Link to="/disclaimer" className="hover:text-foreground">Disclaimer</Link></li>
+            </ul>
           </div>
         </div>
 
         <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-border pt-8 text-xs text-muted-foreground md:flex-row md:items-center">
-          <div>© {new Date().getFullYear()} Tradexpert Service. All rights reserved.</div>
+          <div>
+            <div>© {new Date().getFullYear()} Tradexpert Service. All rights reserved.</div>
+            <div className="mt-2 text-[11px]">Registered Owner: <span className="text-foreground font-medium">MIRZA ARBAAZ BAIG</span></div>
+            <div className="text-[11px]">SEBI Registration: <span className="text-foreground font-medium">ESUPB5062F</span></div>
+          </div>
           <div className="font-mono uppercase tracking-[0.3em]">Protection • Integrity • Vigilance</div>
         </div>
       </div>

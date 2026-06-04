@@ -4,6 +4,7 @@ import portfolio from "@/assets/portfolio-assessment.jpg";
 import research from "@/assets/research-process.jpg";
 import equity from "@/assets/equity-research.jpg";
 import insights from "@/assets/market-insights.jpg";
+import sebiLogo from "@/assets/sebi-logo.jpg";
 import { Reveal } from "@/components/site/Reveal";
 import { Counter } from "@/components/site/Counter";
 
@@ -24,6 +25,7 @@ function AboutPage() {
   return (
     <>
       <AboutHero />
+      <OwnershipSebi />
       <Timeline />
       <MissionVision />
       <ValuesBento />
@@ -55,6 +57,45 @@ function AboutHero() {
             We provide expert guidance on trademark registration, monitoring, and brand protection to help businesses secure their intellectual property.
           </p>
         </Reveal>
+      </div>
+    </section>
+  );
+}
+
+function OwnershipSebi() {
+  return (
+    <section className="relative py-24 border-b border-border">
+      <div className="mx-auto max-w-7xl px-6">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          <Reveal>
+            <div className="space-y-6">
+              <div>
+                <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-primary">Organization Details</div>
+                <h2 className="mt-3 font-display text-3xl md:text-4xl">SEBI Regulated Entity</h2>
+              </div>
+              <div className="space-y-4 text-muted-foreground">
+                <div>
+                  <div className="font-mono text-[10px] uppercase tracking-[0.22em] text-primary">Owner</div>
+                  <div className="mt-2 font-display text-2xl text-foreground">MIRZA ARBAAZ BAIG</div>
+                </div>
+                <div>
+                  <div className="font-mono text-[10px] uppercase tracking-[0.22em] text-primary">SEBI Registration</div>
+                  <div className="mt-2 font-display text-2xl text-foreground font-mono">ESUPB5062F</div>
+                </div>
+                <p className="pt-4 text-sm leading-relaxed">
+                  This entity is registered with and regulated by the Securities and Exchange Board of India (SEBI) to provide professional trademark and intellectual property services.
+                </p>
+              </div>
+            </div>
+          </Reveal>
+          <Reveal delay={1}>
+            <div className="flex items-center justify-center">
+              <div className="h-48 w-48 flex items-center justify-center rounded-2xl border border-border bg-surface/30 p-8">
+                <img src={sebiLogo} alt="SEBI Logo" className="w-full h-full object-contain" loading="lazy" />
+              </div>
+            </div>
+          </Reveal>
+        </div>
       </div>
     </section>
   );

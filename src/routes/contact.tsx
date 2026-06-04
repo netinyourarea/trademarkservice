@@ -92,22 +92,22 @@ function ContactGrid() {
           <Reveal>
             <InfoCard
               tag="Support Desk"
-              title="contact@tradexpert.services"
+              title="helpdesk@tradexpertservice.com"
               body="For registration status, general questions and brand advice."
             />
           </Reveal>
           <Reveal delay={1}>
             <InfoCard
-              tag="Legal Team"
-              title="legal@tradexpert.services"
-              body="Trademark disputes, monitoring alerts and legal counsel."
+              tag="Phone"
+              title="+91 70215 51659"
+              body="Direct support for all your trademark service needs."
             />
           </Reveal>
           <Reveal delay={2}>
             <InfoCard
-              tag="Partnerships"
-              title="partners@tradexpert.services"
-              body="Agency accounts, law firm partnerships and API access."
+              tag="Headquarters"
+              title="KARAVE, NERUL"
+              body="NAVI MUMBAI 400706, India"
             />
           </Reveal>
           <Reveal delay={3}>
