@@ -96,7 +96,7 @@ function PrivacyContent() {
           <div className="space-y-4">
             <h2 className="font-display text-2xl">4. Your Rights</h2>
             <p className="text-muted-foreground leading-relaxed">
-              You have the right to access, correct, or delete your personal information. You can also opt out of communications at any time. Contact us at helpdesk@tradexpertservice.com for any privacy-related inquiries.
+              You have the right to access, correct, or delete your personal information. You can also opt out of communications at any time. Contact us at contact@tradexpert.services for any privacy-related inquiries.
             </p>
           </div>
         </Reveal>
@@ -116,7 +116,7 @@ function PrivacyContent() {
                 </div>
                 <div>
                   <div className="font-mono text-[10px] uppercase tracking-[0.22em] text-primary">Email</div>
-                  <div className="mt-1"><a href="mailto:helpdesk@tradexpertservice.com" className="text-foreground hover:underline">helpdesk@tradexpertservice.com</a></div>
+                  <div className="mt-1"><a href="mailto:contact@tradexpert.services" className="text-foreground hover:underline">contact@tradexpert.services</a></div>
                 </div>
                 <div>
                   <div className="font-mono text-[10px] uppercase tracking-[0.22em] text-primary">Phone</div>

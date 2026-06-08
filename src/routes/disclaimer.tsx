@@ -155,7 +155,7 @@ function DisclaimerContent() {
                 </div>
                 <div>
                   <div className="font-mono text-[10px] uppercase tracking-[0.22em] text-primary">Email</div>
-                  <div className="mt-1"><a href="mailto:helpdesk@tradexpertservice.com" className="text-foreground hover:underline">helpdesk@tradexpertservice.com</a></div>
+                  <div className="mt-1"><a href="mailto:contact@tradexpert.services" className="text-foreground hover:underline">contact@tradexpert.services</a></div>
                 </div>
                 <div>
                   <div className="font-mono text-[10px] uppercase tracking-[0.22em] text-primary">Phone</div>

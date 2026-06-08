@@ -54,8 +54,8 @@ export function Footer() {
             </address>
             <div className="mt-4 space-y-2">
               <div className="text-sm text-foreground">+91 70215 51659</div>
-              <a href="mailto:helpdesk@tradexpertservice.com" className="inline-block text-sm text-foreground underline-offset-4 hover:underline">
-                helpdesk@tradexpertservice.com
+              <a href="mailto:contact@tradexpert.services" className="inline-block text-sm text-foreground underline-offset-4 hover:underline">
+                contact@tradexpert.services
               </a>
             </div>
           </div>

@@ -92,7 +92,7 @@ function ContactGrid() {
           <Reveal>
             <InfoCard
               tag="Support Desk"
-              title="helpdesk@tradexpertservice.com"
+              title="contact@tradexpert.services"
               body="For registration status, general questions and brand advice."
             />
           </Reveal>
